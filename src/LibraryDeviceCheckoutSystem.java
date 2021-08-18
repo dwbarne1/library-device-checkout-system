@@ -39,7 +39,6 @@ public class LibraryDeviceCheckoutSystem
 			try 
 			{
 				menuOption = Integer.parseInt(scan.nextLine()); // user must enter a menu option (1-7)
-				if(menuOption < 1 || menuOption > 7);
 			}
 			
 			catch(Exception e)
