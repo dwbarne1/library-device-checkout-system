@@ -123,7 +123,7 @@ public class LibraryDeviceCheckoutSystem
 		System.out.print("Enter name: ");
 		name = scan.nextLine();
 		
-		// creating a new tmpDev object an adding it to the devices ArrayList every time this method is invoked
+		// creating a new tmpDev object and adding it to the devices ArrayList every time this method is invoked
 		Device tmpDev = new Device();
 		tmpDev.setSku(sku);
 		tmpDev.setName(name);
